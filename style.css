@@ -1,0 +1,35 @@
+body{
+    background-color: beige;
+}
+
+header{
+    
+    text-align: left;
+}
+
+.exp {
+    display: flex;
+    justify-content: space-between; /* Espaço entre as divs */
+}
+.exp div {
+    width: auto; /* Ajuste a largura conforme necessário */
+    
+}
+.exp div:first-child {
+    margin-right: 5%; /* Espaço entre as divs */
+    padding-top: 100px;
+}
+
+.nome{
+    display: flex;
+    gap: 10px;
+    
+}
+
+
+img{
+    padding-top: 10px;
+     
+}
+
+
